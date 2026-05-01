@@ -1,10 +1,10 @@
 (function(){
   var el=document.getElementById('as-countdown');
   if(!el)return;
-  var until='until offer ends';
-  var taken='of 100 bonuses claimed today';
-  var offer='\uD83C\uDF81 100% up to \u20AC500 + 200 free spins';
-  var cta='Claim now';
+  var until='bis zum Ende der Aktion';
+  var taken='von 100 Boni heute beansprucht';
+  var offer='\uD83C\uDF81 100% bis 500 \u20AC + 200 Freispiele';
+  var cta='Jetzt aktivieren';
   var tz=1;
   var styleId='cd-style';
   if(!document.getElementById(styleId)){

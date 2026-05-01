@@ -1,24 +1,28 @@
 <!DOCTYPE html>
-<html lang="de-DE">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Golazzo Slots – Beste Online-Slots & Spielautomaten</title>
+<title>Golazzo Casino Slots – Top Games & Providers</title>
 <script>document.title=document.title.replace('Slots','Slots '+new Date().getFullYear()+' –').replace(' – –',' –');</script>
-<meta name="description" content="Über 7.000 Online Slots bei Golazzo Casino: Pragmatic Play, NetEnt, Hacksaw, Megaways, Jackpots. Beliebteste Spielautomaten, RTP, Slot Maschinen — der Überblick.">
+<meta name="description" content="Inside the Golazzo Casino slot library: 7,000+ titles from Pragmatic Play, NetEnt, Hacksaw, Megaways, jackpots. Popular slots, RTPs, providers — all in one overview.">
 <meta name="robots" content="index, follow">
-<meta property="og:title" content="Golazzo Slots – Beste Online-Slots & Spielautomaten">
-<meta property="og:description" content="7.000+ Online Slots bei Golazzo Casino, alle Top-Anbieter, hohe RTP-Werte.">
+<meta property="og:title" content="Golazzo Casino Slots – Top Games & Providers">
+<meta property="og:description" content="7,000+ online slots at Golazzo Casino, every major provider, high RTPs.">
 <meta property="og:url" content="https://drawnude.org/slots/">
 <meta property="og:type" content="website">
 <meta property="og:image" content="/img/banner.webp">
 <meta property="og:image:width" content="1344">
 <meta property="og:image:height" content="768">
-<meta property="og:locale" content="de_DE">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="de_DE">
 <meta property="og:site_name" content="Golazzo Casino">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#0d0521">
 <link rel="canonical" href="https://drawnude.org/slots/">
+<link rel="alternate" hreflang="en" href="https://drawnude.org/slots/">
+<link rel="alternate" hreflang="de" href="https://drawnude.org/de/slots/">
+<link rel="alternate" hreflang="x-default" href="https://drawnude.org/slots/">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="dns-prefetch" href="//f9j3l.bemobtrcks.com">
 <link rel="prerender" href="/play/">
@@ -41,9 +45,12 @@ img{max-width:100%;height:auto;display:block}
 .nav-inner{display:flex;align-items:center;justify-content:space-between;width:100%}
 .logo{font-weight:900;font-size:1.35rem;color:var(--accent1);text-transform:uppercase}
 .logo span{color:var(--accent2)}
-.nav-links{display:flex;gap:1.75rem;align-items:center;list-style:none;margin:0;padding:0}
+.nav-links{display:flex;gap:1.5rem;align-items:center;list-style:none;margin:0;padding:0}
 .nav-links a{color:var(--text);font-weight:600;font-size:.95rem}
 .nav-cta{background:var(--accent1);color:#0d0521!important;padding:.55rem 1.1rem;border-radius:6px;font-weight:800}
+.lang-switch{display:inline-flex;gap:.25rem;align-items:center;font-size:.8rem;border:1px solid var(--border);border-radius:6px;padding:.2rem;margin-left:.25rem}
+.lang-switch a{padding:.2rem .5rem;border-radius:4px;font-weight:700;color:var(--text2)}
+.lang-switch a.active{background:var(--accent1);color:#0d0521}
 .burger{display:none;background:none;border:0;cursor:pointer;padding:.4rem;width:40px;height:40px}
 .burger span{display:block;width:24px;height:3px;background:var(--text);margin:4px auto;border-radius:2px}
 #mob-nav{position:fixed;top:var(--nav-h);left:0;right:0;max-height:calc(100vh - var(--nav-h));overflow-y:auto;background:var(--bg2);z-index:9200;transform:translateX(100%);transition:transform .25s ease;display:flex;flex-direction:column;padding:1rem;gap:.5rem}
@@ -110,25 +117,26 @@ section{padding:2.5rem 0}
 #scroll-top{position:fixed;bottom:calc(var(--sbar-h) + 1rem);right:1.5rem;width:44px;height:44px;border-radius:50%;background:var(--accent1);color:#0d0521;border:0;font-size:1.3rem;cursor:pointer;display:none;z-index:90}
 #scroll-top.show{display:block}
 .table-wrap{overflow-x:auto}
-:lang(de) td,:lang(de) th{hyphens:auto}
 </style>
 </head>
 <body>
-<a class="skip-link" href="#main-content">Zum Inhalt springen</a>
+<a class="skip-link" href="#main-content">Skip to content</a>
 <header class="nav"><div class="container nav-inner">
   <a href="/" class="logo">GOLAZZO<span>.</span></a>
   <nav><ul class="nav-links">
-    <li><a href="/">Bewertung</a></li>
-    <li><a href="/bonuses/">Boni</a></li>
+    <li><a href="/">Review</a></li>
+    <li><a href="/bonuses/">Bonuses</a></li>
     <li><a href="/slots/">Slots</a></li>
     <li><a href="/app/">App</a></li>
-    <li><a href="/play/" class="nav-cta" rel="nofollow sponsored noopener">Spielen</a></li>
+    <li><a href="/play/" class="nav-cta" rel="nofollow sponsored noopener">Play</a></li>
+    <li><span class="lang-switch"><a href="/slots/" class="active" aria-current="page">EN</a><a href="/de/slots/" hreflang="de">DE</a></span></li>
   </ul></nav>
-  <button id="burger" class="burger" aria-label="Menü öffnen" aria-expanded="false" aria-controls="mob-nav"><span></span><span></span><span></span></button>
+  <button id="burger" class="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mob-nav"><span></span><span></span><span></span></button>
 </div>
 <nav id="mob-nav" aria-hidden="true">
-  <a href="/">Bewertung</a><a href="/bonuses/">Boni</a><a href="/slots/">Slots</a><a href="/app/">App</a>
-  <a href="/play/" class="nav-cta" rel="nofollow sponsored noopener">Jetzt spielen</a>
+  <a href="/">Review</a><a href="/bonuses/">Bonuses</a><a href="/slots/">Slots</a><a href="/app/">App</a>
+  <a href="/de/slots/">Deutsch</a>
+  <a href="/play/" class="nav-cta" rel="nofollow sponsored noopener">Play now</a>
 </nav>
 </header>
 
@@ -136,91 +144,91 @@ section{padding:2.5rem 0}
 
 <section class="hero"><div class="container">
   <span class="badge">🎰 Golazzo Slots <script>document.write(new Date().getFullYear())</script></span>
-  <h1>Golazzo Slots — über 7.000 Spielautomaten und Slot Maschinen online spielen</h1>
-  <p class="sub">Online Slots spielen bei Golazzo Casino: Megaways, Bonus Buy, Jackpot-Slots und Klassiker von Pragmatic Play, NetEnt, Hacksaw, Play'n GO und vielen weiteren Top-Anbietern. Mit hohen RTP-Werten und mobiler Optimierung.</p>
+  <h1>Golazzo slots — 7,000+ slot machines to play online</h1>
+  <p class="sub">Play online slots at Golazzo Casino: Megaways, bonus buy, jackpot slots, and classics from Pragmatic Play, NetEnt, Hacksaw, Play'n GO, and dozens more top studios. High RTPs, mobile-ready.</p>
   <div class="cta-row">
-    <a href="/play/" class="btn btn-primary" rel="nofollow sponsored noopener">Slots spielen →</a>
-    <a href="#how" class="btn btn-ghost">So geht's ↓</a>
+    <a href="/play/" class="btn btn-primary" rel="nofollow sponsored noopener">Play slots →</a>
+    <a href="#how" class="btn btn-ghost">How it works ↓</a>
   </div>
 </div></section>
 
 <section><div class="container">
-  <div class="warning">⚠️ <strong>Hinweis:</strong> Online Slots basieren auf Zufallsgeneratoren. Spielen Sie verantwortungsvoll, setzen Sie sich Limits — 18+. Glücksspiel kann süchtig machen.</div>
+  <div class="warning">⚠️ <strong>Note:</strong> Online slots are powered by random number generators. Set limits and play responsibly — 18+. Gambling can be addictive.</div>
 
   <div class="offer-strip">
-    <h2>Slots-Willkommenspaket</h2>
-    <div class="offer-amt">100% bis 500 € + 200 Freispiele</div>
-    <p style="color:var(--text2);margin-top:.5rem">200 Freispiele auf Top-Slots wie Gates of Olympus, Sweet Bonanza und mehr. Min. 20 €, Umsatz 35×.</p>
-    <a href="/play/" class="btn btn-primary" style="margin-top:1rem" rel="nofollow sponsored noopener">Jetzt holen →</a>
+    <h2>Slots welcome package</h2>
+    <div class="offer-amt">100% up to €500 + 200 free spins</div>
+    <p style="color:var(--text2);margin-top:.5rem">200 free spins on top slots like Gates of Olympus, Sweet Bonanza, and more. Min. €20, 35× wagering.</p>
+    <a href="/play/" class="btn btn-primary" style="margin-top:1rem" rel="nofollow sponsored noopener">Claim now →</a>
   </div>
 
-  <h2>Top Slots bei Golazzo Casino</h2>
+  <h2>Top slots at Golazzo Casino</h2>
   <div class="games-grid">
-    <a href="/play/" class="game-card" rel="nofollow sponsored noopener"><span class="game-badge">Hot 🔥</span><img src="/img/slot1.webp" width="768" height="1024" alt="Gates of Olympus Slot bei Golazzo" loading="lazy"><div class="game-card-overlay">Jetzt spielen</div><div class="game-card-meta"><span>Top Pick</span><strong>★ 4,8</strong></div></a>
-    <a href="/play/" class="game-card" rel="nofollow sponsored noopener"><img src="/img/slot2.webp" width="768" height="1024" alt="Sweet Bonanza Slot bei Golazzo" loading="lazy"><div class="game-card-overlay">Jetzt spielen</div><div class="game-card-meta"><span>Editor's Choice</span><strong>★ 4,7</strong></div></a>
-    <a href="/play/" class="game-card" rel="nofollow sponsored noopener"><span class="game-badge rtp">Top RTP</span><img src="/img/slot3.webp" width="768" height="1024" alt="Megaways Slot mit hohem RTP" loading="lazy"><div class="game-card-overlay">Jetzt spielen</div><div class="game-card-meta"><span>High RTP</span><strong>★ 4,9</strong></div></a>
-    <a href="/play/" class="game-card" rel="nofollow sponsored noopener"><span class="game-badge new">New ✨</span><img src="/img/slot4.webp" width="768" height="1024" alt="Neuer Slot bei Golazzo" loading="lazy"><div class="game-card-overlay">Jetzt spielen</div><div class="game-card-meta"><span>Trending</span><strong>★ 4,6</strong></div></a>
-    <a href="/play/" class="game-card" rel="nofollow sponsored noopener"><img src="/img/slot5.webp" width="768" height="1024" alt="Big Bass Bonanza Slot" loading="lazy"><div class="game-card-overlay">Jetzt spielen</div><div class="game-card-meta"><span>Fan Favourite</span><strong>★ 4,7</strong></div></a>
-    <a href="/play/" class="game-card" rel="nofollow sponsored noopener"><span class="game-badge">Hot 🔥</span><img src="/img/slot6.webp" width="768" height="1024" alt="Razor Shark Slot" loading="lazy"><div class="game-card-overlay">Jetzt spielen</div><div class="game-card-meta"><span>Most Played</span><strong>★ 4,8</strong></div></a>
-    <a href="/play/" class="game-card" rel="nofollow sponsored noopener"><img src="/img/slot7.webp" width="768" height="1024" alt="Bonus Buy Slot" loading="lazy"><div class="game-card-overlay">Jetzt spielen</div><div class="game-card-meta"><span>Bonus Buy</span><strong>★ 4,6</strong></div></a>
-    <a href="/play/" class="game-card" rel="nofollow sponsored noopener"><span class="game-badge new">New ✨</span><img src="/img/slot8.webp" width="768" height="1024" alt="Jackpot-Slot bei Golazzo" loading="lazy"><div class="game-card-overlay">Jetzt spielen</div><div class="game-card-meta"><span>Jackpot</span><strong>★ 4,8</strong></div></a>
+    <a href="/play/" class="game-card" rel="nofollow sponsored noopener"><span class="game-badge">Hot 🔥</span><img src="/img/slot1.webp" width="768" height="1024" alt="Gates of Olympus slot at Golazzo" loading="lazy"><div class="game-card-overlay">Play now</div><div class="game-card-meta"><span>Top Pick</span><strong>★ 4.8</strong></div></a>
+    <a href="/play/" class="game-card" rel="nofollow sponsored noopener"><img src="/img/slot2.webp" width="768" height="1024" alt="Sweet Bonanza slot at Golazzo" loading="lazy"><div class="game-card-overlay">Play now</div><div class="game-card-meta"><span>Editor's Choice</span><strong>★ 4.7</strong></div></a>
+    <a href="/play/" class="game-card" rel="nofollow sponsored noopener"><span class="game-badge rtp">Top RTP</span><img src="/img/slot3.webp" width="768" height="1024" alt="Megaways slot with high RTP" loading="lazy"><div class="game-card-overlay">Play now</div><div class="game-card-meta"><span>High RTP</span><strong>★ 4.9</strong></div></a>
+    <a href="/play/" class="game-card" rel="nofollow sponsored noopener"><span class="game-badge new">New ✨</span><img src="/img/slot4.webp" width="768" height="1024" alt="New slot at Golazzo" loading="lazy"><div class="game-card-overlay">Play now</div><div class="game-card-meta"><span>Trending</span><strong>★ 4.6</strong></div></a>
+    <a href="/play/" class="game-card" rel="nofollow sponsored noopener"><img src="/img/slot5.webp" width="768" height="1024" alt="Big Bass Bonanza slot" loading="lazy"><div class="game-card-overlay">Play now</div><div class="game-card-meta"><span>Fan Favourite</span><strong>★ 4.7</strong></div></a>
+    <a href="/play/" class="game-card" rel="nofollow sponsored noopener"><span class="game-badge">Hot 🔥</span><img src="/img/slot6.webp" width="768" height="1024" alt="Razor Shark slot" loading="lazy"><div class="game-card-overlay">Play now</div><div class="game-card-meta"><span>Most Played</span><strong>★ 4.8</strong></div></a>
+    <a href="/play/" class="game-card" rel="nofollow sponsored noopener"><img src="/img/slot7.webp" width="768" height="1024" alt="Bonus buy slot" loading="lazy"><div class="game-card-overlay">Play now</div><div class="game-card-meta"><span>Bonus Buy</span><strong>★ 4.6</strong></div></a>
+    <a href="/play/" class="game-card" rel="nofollow sponsored noopener"><span class="game-badge new">New ✨</span><img src="/img/slot8.webp" width="768" height="1024" alt="Jackpot slot at Golazzo" loading="lazy"><div class="game-card-overlay">Play now</div><div class="game-card-meta"><span>Jackpot</span><strong>★ 4.8</strong></div></a>
   </div>
 </div></section>
 
 <section><div class="container">
   <div class="review-text">
-    <h2>Online Slots spielen bei Golazzo</h2>
-    <p>Die Slot-Sammlung bei Golazzo Casino umfasst über 7.000 Spielautomaten von mehr als 75 Anbietern. Wer Online Slots spielen möchte, findet hier alles vom klassischen Drei-Walzen-Slot bis zur modernen Megaways-Mechanik mit bis zu 117.649 Gewinnwegen. Slot Maschinen wie Gates of Olympus, Sweet Bonanza, Big Bass Bonanza, Book of Dead und Razor Shark gehören zu den beliebtesten Titeln in der deutschen Community.</p>
+    <h2>Playing online slots at Golazzo</h2>
+    <p>The Golazzo slot library covers 7,000+ titles from more than 75 providers. Whether you want to play online slots in their classic three-reel form or you're after modern Megaways mechanics with up to 117,649 ways to win, there's something here. Slot machines like Gates of Olympus, Sweet Bonanza, Big Bass Bonanza, Book of Dead, and Razor Shark are among the most-played in the international community.</p>
 
-    <h2>RTP und Volatilität</h2>
-    <p>Die meisten Slots bei Golazzo bewegen sich im RTP-Bereich von 95% bis 97,5%. Hochvolatile Slots wie Wanted Dead or a Wild oder Le Bandit liefern seltene, aber große Gewinne, während Slots mit niedriger Volatilität wie Starburst regelmäßige kleinere Auszahlungen bringen. Im Filter der Lobby können Sie Slots gezielt nach RTP und Volatilität sortieren.</p>
+    <h2>RTP and volatility</h2>
+    <p>Most slots at Golazzo sit in the 95% to 97.5% RTP range. High-volatility games like Wanted Dead or a Wild and Le Bandit deliver rare but big wins, while low-volatility titles such as Starburst pay smaller, more frequent amounts. The lobby filter lets you sort slots by RTP and volatility directly.</p>
 
-    <h2>Slot-Anbieter im Überblick</h2>
-    <p>Pragmatic Play stellt mit Abstand die meisten Spiele, gefolgt von NetEnt, Hacksaw Gaming, Play'n GO, Yggdrasil und Push Gaming. Auch nischigere Studios wie Nolimit City (für hochvolatile Slots), ELK Studios und Big Time Gaming (Erfinder der Megaways-Mechanik) sind vertreten. Wer Slot-Klassiker bevorzugt, findet bei Microgaming und Quickspin reichlich Auswahl.</p>
+    <h2>Slot providers at a glance</h2>
+    <p>Pragmatic Play supplies the largest share of the library, followed by NetEnt, Hacksaw Gaming, Play'n GO, Yggdrasil, and Push Gaming. More niche studios are also represented: Nolimit City for high-volatility hits, ELK Studios, and Big Time Gaming (the original creators of Megaways). Classic-slot fans can dig into Microgaming and Quickspin catalogues.</p>
 
-    <h2>Mobile Slots</h2>
-    <p>Sämtliche Online Slots laufen mobil ohne Qualitätsverlust — die Lobby ist responsiv und alle Spiele sind in HTML5 entwickelt, kein Flash. Auch in der nativen Golazzo-App stehen alle Slots zur Verfügung, einschließlich der Bonusangebote und Freispiele. Mehr dazu auf der <a href="/app/">App-Seite</a>.</p>
+    <h2>Mobile slots</h2>
+    <p>Every slot here runs on mobile without quality loss — the lobby is responsive and all games are HTML5, no Flash. The native Golazzo app carries the full slot library too, including all bonus offers and free spins. More on the <a href="/app/">app page</a>.</p>
   </div>
 </div></section>
 
 <section id="how"><div class="container">
-  <h2>So spielen Sie Slots bei Golazzo</h2>
+  <h2>How to play slots at Golazzo</h2>
   <ol class="how-to-steps">
-    <li>Registrieren Sie sich bei Golazzo Casino und bestätigen Sie Ihre E-Mail</li>
-    <li>Tätigen Sie eine Einzahlung ab 20 € — Bonus wird automatisch gutgeschrieben</li>
-    <li>Öffnen Sie die Slot-Lobby und filtern Sie nach Anbieter, Volatilität oder Feature</li>
-    <li>Wählen Sie einen Slot, stellen Sie Ihren Einsatz ein und drücken Sie „Spin"</li>
-    <li>Verfolgen Sie Ihre Gewinne und beachten Sie die Umsatzanforderung von 35×</li>
+    <li>Sign up at Golazzo Casino and confirm your email</li>
+    <li>Deposit €20 or more — bonus credits automatically</li>
+    <li>Open the slot lobby and filter by provider, volatility, or feature</li>
+    <li>Pick a slot, set your stake, and hit "Spin"</li>
+    <li>Track your winnings and remember the 35× wagering on bonus play</li>
   </ol>
 </div></section>
 
 <section><div class="container">
-  <h2>Häufige Fragen zu Golazzo Slots</h2>
+  <h2>Frequently asked questions about Golazzo slots</h2>
   <div class="faq">
-    <details><span class="faq-num" aria-hidden="true">01</span><summary><h3>Wie viele Slots gibt es bei Golazzo Casino?</h3></summary><div class="faq-a">Über 7.000 Online Slots von mehr als 75 Anbietern, von klassischen Drei-Walzen-Slots bis hin zu modernen Megaways-Spielen mit bis zu 117.649 Gewinnwegen.</div></details>
-    <details><span class="faq-num" aria-hidden="true">02</span><summary><h3>Welche Slots haben den höchsten RTP?</h3></summary><div class="faq-a">Slots wie Blood Suckers (98%), Mega Joker (99%) und 1429 Uncharted Seas (98,6%) gehören zu den Top-RTP-Slots im Golazzo-Portfolio.</div></details>
-    <details><span class="faq-num" aria-hidden="true">03</span><summary><h3>Kann ich Slots gratis ausprobieren?</h3></summary><div class="faq-a">Ja, die meisten Slots stehen im Demo-Modus zur Verfügung — auch ohne Anmeldung. Echtgeld-Modus erfordert Registrierung und Einzahlung.</div></details>
-    <details><span class="faq-num" aria-hidden="true">04</span><summary><h3>Welche Anbieter sind bei Golazzo verfügbar?</h3></summary><div class="faq-a">Pragmatic Play, NetEnt, Evolution, Hacksaw Gaming, Play'n GO, Yggdrasil, Push Gaming, Nolimit City, Big Time Gaming, Quickspin und 65+ weitere.</div></details>
-    <details><span class="faq-num" aria-hidden="true">05</span><summary><h3>Was sind Megaways-Slots?</h3></summary><div class="faq-a">Megaways ist eine von Big Time Gaming entwickelte Mechanik, bei der die Anzahl der Gewinnwege bei jedem Spin variiert — typischerweise zwischen 324 und 117.649 Wegen.</div></details>
-    <details><span class="faq-num" aria-hidden="true">06</span><summary><h3>Gibt es progressive Jackpot-Slots?</h3></summary><div class="faq-a">Ja, Golazzo bietet progressive Jackpots wie Mega Moolah, Divine Fortune und Hall of Gods mit Jackpot-Summen, die teils in den Millionenbereich gehen.</div></details>
-    <details><span class="faq-num" aria-hidden="true">07</span><summary><h3>Laufen die Slots auch mobil?</h3></summary><div class="faq-a">Ja, alle Slots sind in HTML5 entwickelt und laufen problemlos auf iOS, Android und in der mobilen Browser-Version. Auch die native App unterstützt das gesamte Slot-Portfolio.</div></details>
-    <details><span class="faq-num" aria-hidden="true">08</span><summary><h3>Wie hoch ist der maximale Einsatz pro Spin?</h3></summary><div class="faq-a">Die Einsatzlimits variieren je nach Slot, typischerweise zwischen 0,10 € und 100 € pro Spin. Während aktiver Bonusumsatz gilt meist eine Obergrenze von 5 € pro Spin.</div></details>
+    <details><span class="faq-num" aria-hidden="true">01</span><summary><h3>How many slots does Golazzo Casino have?</h3></summary><div class="faq-a">Over 7,000 online slots from 75+ providers, ranging from classic three-reel games to modern Megaways titles with up to 117,649 ways to win.</div></details>
+    <details><span class="faq-num" aria-hidden="true">02</span><summary><h3>Which slots have the highest RTP?</h3></summary><div class="faq-a">Slots like Blood Suckers (98%), Mega Joker (99%), and 1429 Uncharted Seas (98.6%) are among the highest-RTP titles in the Golazzo portfolio.</div></details>
+    <details><span class="faq-num" aria-hidden="true">03</span><summary><h3>Can I try slots for free?</h3></summary><div class="faq-a">Yes — most slots are available in demo mode, even without an account. Real-money play requires registration and a deposit.</div></details>
+    <details><span class="faq-num" aria-hidden="true">04</span><summary><h3>Which providers are available at Golazzo?</h3></summary><div class="faq-a">Pragmatic Play, NetEnt, Evolution, Hacksaw Gaming, Play'n GO, Yggdrasil, Push Gaming, Nolimit City, Big Time Gaming, Quickspin, and 65+ others.</div></details>
+    <details><span class="faq-num" aria-hidden="true">05</span><summary><h3>What are Megaways slots?</h3></summary><div class="faq-a">Megaways is a mechanic developed by Big Time Gaming where the number of ways to win changes every spin — typically between 324 and 117,649.</div></details>
+    <details><span class="faq-num" aria-hidden="true">06</span><summary><h3>Are there progressive jackpot slots?</h3></summary><div class="faq-a">Yes — Golazzo offers progressives like Mega Moolah, Divine Fortune, and Hall of Gods, with jackpots that can run into the millions.</div></details>
+    <details><span class="faq-num" aria-hidden="true">07</span><summary><h3>Do slots work on mobile?</h3></summary><div class="faq-a">Yes — every slot is built in HTML5 and runs smoothly on iOS, Android, and the mobile browser. The native app carries the full slot library too.</div></details>
+    <details><span class="faq-num" aria-hidden="true">08</span><summary><h3>What's the maximum bet per spin?</h3></summary><div class="faq-a">Limits vary by slot, typically €0.10 to €100 per spin. While clearing a bonus, the cap is usually €5 per spin.</div></details>
   </div>
 </div></section>
 
 <section><div class="container">
   <div class="explore">
-    <a href="/">← Zur Bewertung</a>
-    <a href="/bonuses/">Boni →</a>
+    <a href="/">← Back to review</a>
+    <a href="/bonuses/">Bonuses →</a>
     <a href="/app/">App →</a>
   </div>
 </div></section>
 
 <section><div class="container">
   <div class="final-cta">
-    <h2>Bereit, Golazzo Slots zu spielen?</h2>
-    <p>Sichern Sie sich 200 Freispiele plus 100% Bonus bis 500 € und stürzen Sie sich in über 7.000 Online Slots der Top-Anbieter.</p>
-    <a href="/play/" class="btn btn-primary" rel="nofollow sponsored noopener">Slots jetzt spielen →</a>
+    <h2>Ready to play Golazzo slots?</h2>
+    <p>Claim 200 free spins plus a 100% bonus up to €500 and dive into 7,000+ online slots from every major studio.</p>
+    <a href="/play/" class="btn btn-primary" rel="nofollow sponsored noopener">Play slots now →</a>
   </div>
 </div></section>
 
@@ -228,33 +236,33 @@ section{padding:2.5rem 0}
 
 <footer class="footer"><div class="container">
   <div class="footer-grid">
-    <div><div class="logo">GOLAZZO<span>.</span></div><p style="color:var(--text2);font-size:.9rem;margin-top:.75rem">Unabhängige Informationsseite. 18+.</p></div>
-    <div><strong class="footer-col-label">Seiten</strong><a href="/">Bewertung</a><a href="/bonuses/">Boni</a><a href="/slots/">Slots</a><a href="/app/">App</a></div>
-    <div><strong class="footer-col-label">Rechtliches</strong><a href="/datenschutz.html">Datenschutz</a><a href="/agb.html">AGB</a><a href="/disclaimer.html">Disclaimer</a><a href="/impressum.html">Impressum</a></div>
-    <div><strong class="footer-col-label">Verantwortungsvoll</strong><a href="https://www.gamcare.org.uk" rel="nofollow noopener noreferrer" target="_blank">GamCare</a><a href="https://www.begambleaware.org" rel="nofollow noopener noreferrer" target="_blank">BeGambleAware</a><a href="https://www.spielen-mit-verantwortung.de" rel="nofollow noopener noreferrer" target="_blank">BZgA</a></div>
+    <div><div class="logo">GOLAZZO<span>.</span></div><p style="color:var(--text2);font-size:.9rem;margin-top:.75rem">Independent information site. 18+.</p></div>
+    <div><strong class="footer-col-label">Pages</strong><a href="/">Review</a><a href="/bonuses/">Bonuses</a><a href="/slots/">Slots</a><a href="/app/">App</a><a href="/de/">Deutsch (DE)</a></div>
+    <div><strong class="footer-col-label">Legal</strong><a href="/privacy-policy.html">Privacy policy</a><a href="/terms-and-conditions.html">Terms &amp; conditions</a><a href="/disclaimer.html">Disclaimer</a><a href="/responsible-gambling.html">Responsible gambling</a></div>
+    <div><strong class="footer-col-label">Play responsibly</strong><a href="https://www.gamcare.org.uk" rel="nofollow noopener noreferrer" target="_blank">GamCare</a><a href="https://www.begambleaware.org" rel="nofollow noopener noreferrer" target="_blank">BeGambleAware</a><a href="https://www.gamblersanonymous.org" rel="nofollow noopener noreferrer" target="_blank">Gamblers Anonymous</a></div>
   </div>
-  <div class="footer-disclaimer">© <script>document.write(new Date().getFullYear())</script> drawnude.org · Golazzo Casino Info. 18+. Spielen Sie verantwortungsvoll.</div>
+  <div class="footer-disclaimer">© <script>document.write(new Date().getFullYear())</script> drawnude.org · Golazzo Casino info. 18+. Please play responsibly.</div>
 </div></footer>
 
-<div id="sbar"><div id="sbar-text" data-full="🎁 100% bis 500 € + 200 Freispiele — jetzt aktivieren" data-short="🎁 500 € + 200 FS">🎁 100% bis 500 € + 200 Freispiele — jetzt aktivieren</div><div id="sbar-timer">10:00</div><a href="/play/" class="btn btn-primary" rel="nofollow sponsored noopener">Holen</a><button id="sbar-close" aria-label="Schließen">×</button></div>
-<button id="scroll-top" aria-label="Nach oben">↑</button>
+<div id="sbar"><div id="sbar-text" data-full="🎁 100% up to €500 + 200 free spins — claim now" data-short="🎁 €500 + 200 FS">🎁 100% up to €500 + 200 free spins — claim now</div><div id="sbar-timer">10:00</div><a href="/play/" class="btn btn-primary" rel="nofollow sponsored noopener">Claim</a><button id="sbar-close" aria-label="Close">×</button></div>
+<button id="scroll-top" aria-label="Back to top">↑</button>
 
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Bewertung","item":"https://drawnude.org/"},{"@type":"ListItem","position":2,"name":"Slots","item":"https://drawnude.org/slots/"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Review","item":"https://drawnude.org/"},{"@type":"ListItem","position":2,"name":"Slots","item":"https://drawnude.org/slots/"}]}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"HowTo","name":"Golazzo Slots spielen","step":[{"@type":"HowToStep","position":1,"text":"Registrieren Sie sich bei Golazzo Casino und bestätigen Sie Ihre E-Mail"},{"@type":"HowToStep","position":2,"text":"Tätigen Sie eine Einzahlung ab 20 € — Bonus wird automatisch gutgeschrieben"},{"@type":"HowToStep","position":3,"text":"Öffnen Sie die Slot-Lobby und filtern Sie nach Anbieter, Volatilität oder Feature"},{"@type":"HowToStep","position":4,"text":"Wählen Sie einen Slot, stellen Sie Ihren Einsatz ein und drücken Sie „Spin\""},{"@type":"HowToStep","position":5,"text":"Verfolgen Sie Ihre Gewinne und beachten Sie die Umsatzanforderung von 35×"}]}
+{"@context":"https://schema.org","@type":"HowTo","name":"Play Golazzo slots","step":[{"@type":"HowToStep","position":1,"text":"Sign up at Golazzo Casino and confirm your email"},{"@type":"HowToStep","position":2,"text":"Deposit €20 or more — bonus credits automatically"},{"@type":"HowToStep","position":3,"text":"Open the slot lobby and filter by provider, volatility, or feature"},{"@type":"HowToStep","position":4,"text":"Pick a slot, set your stake, and hit Spin"},{"@type":"HowToStep","position":5,"text":"Track your winnings and remember the 35× wagering on bonus play"}]}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-{"@type":"Question","name":"Wie viele Slots gibt es bei Golazzo Casino?","acceptedAnswer":{"@type":"Answer","text":"Über 7.000 Online Slots von mehr als 75 Anbietern, von klassischen Drei-Walzen-Slots bis hin zu modernen Megaways-Spielen mit bis zu 117.649 Gewinnwegen."}},
-{"@type":"Question","name":"Welche Slots haben den höchsten RTP?","acceptedAnswer":{"@type":"Answer","text":"Slots wie Blood Suckers (98%), Mega Joker (99%) und 1429 Uncharted Seas (98,6%) gehören zu den Top-RTP-Slots im Golazzo-Portfolio."}},
-{"@type":"Question","name":"Kann ich Slots gratis ausprobieren?","acceptedAnswer":{"@type":"Answer","text":"Ja, die meisten Slots stehen im Demo-Modus zur Verfügung — auch ohne Anmeldung. Echtgeld-Modus erfordert Registrierung und Einzahlung."}},
-{"@type":"Question","name":"Welche Anbieter sind bei Golazzo verfügbar?","acceptedAnswer":{"@type":"Answer","text":"Pragmatic Play, NetEnt, Evolution, Hacksaw Gaming, Play'n GO, Yggdrasil, Push Gaming, Nolimit City, Big Time Gaming, Quickspin und 65+ weitere."}},
-{"@type":"Question","name":"Was sind Megaways-Slots?","acceptedAnswer":{"@type":"Answer","text":"Megaways ist eine von Big Time Gaming entwickelte Mechanik, bei der die Anzahl der Gewinnwege bei jedem Spin variiert — typischerweise zwischen 324 und 117.649 Wegen."}},
-{"@type":"Question","name":"Gibt es progressive Jackpot-Slots?","acceptedAnswer":{"@type":"Answer","text":"Ja, Golazzo bietet progressive Jackpots wie Mega Moolah, Divine Fortune und Hall of Gods mit Jackpot-Summen, die teils in den Millionenbereich gehen."}},
-{"@type":"Question","name":"Laufen die Slots auch mobil?","acceptedAnswer":{"@type":"Answer","text":"Ja, alle Slots sind in HTML5 entwickelt und laufen problemlos auf iOS, Android und in der mobilen Browser-Version. Auch die native App unterstützt das gesamte Slot-Portfolio."}},
-{"@type":"Question","name":"Wie hoch ist der maximale Einsatz pro Spin?","acceptedAnswer":{"@type":"Answer","text":"Die Einsatzlimits variieren je nach Slot, typischerweise zwischen 0,10 € und 100 € pro Spin. Während aktiver Bonusumsatz gilt meist eine Obergrenze von 5 € pro Spin."}}
+{"@type":"Question","name":"How many slots does Golazzo Casino have?","acceptedAnswer":{"@type":"Answer","text":"Over 7,000 online slots from 75+ providers, ranging from classic three-reel games to modern Megaways titles with up to 117,649 ways to win."}},
+{"@type":"Question","name":"Which slots have the highest RTP?","acceptedAnswer":{"@type":"Answer","text":"Slots like Blood Suckers (98%), Mega Joker (99%), and 1429 Uncharted Seas (98.6%) are among the highest-RTP titles in the Golazzo portfolio."}},
+{"@type":"Question","name":"Can I try slots for free?","acceptedAnswer":{"@type":"Answer","text":"Yes — most slots are available in demo mode, even without an account. Real-money play requires registration and a deposit."}},
+{"@type":"Question","name":"Which providers are available at Golazzo?","acceptedAnswer":{"@type":"Answer","text":"Pragmatic Play, NetEnt, Evolution, Hacksaw Gaming, Play'n GO, Yggdrasil, Push Gaming, Nolimit City, Big Time Gaming, Quickspin, and 65+ others."}},
+{"@type":"Question","name":"What are Megaways slots?","acceptedAnswer":{"@type":"Answer","text":"Megaways is a mechanic developed by Big Time Gaming where the number of ways to win changes every spin — typically between 324 and 117,649."}},
+{"@type":"Question","name":"Are there progressive jackpot slots?","acceptedAnswer":{"@type":"Answer","text":"Yes — Golazzo offers progressives like Mega Moolah, Divine Fortune, and Hall of Gods, with jackpots that can run into the millions."}},
+{"@type":"Question","name":"Do slots work on mobile?","acceptedAnswer":{"@type":"Answer","text":"Yes — every slot is built in HTML5 and runs smoothly on iOS, Android, and the mobile browser. The native app carries the full slot library too."}},
+{"@type":"Question","name":"What's the maximum bet per spin?","acceptedAnswer":{"@type":"Answer","text":"Limits vary by slot, typically €0.10 to €100 per spin. While clearing a bonus, the cap is usually €5 per spin."}}
 ]}
 </script>
 <script>

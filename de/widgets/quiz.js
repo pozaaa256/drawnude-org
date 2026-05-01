@@ -1,19 +1,19 @@
 (function(){
   var el=document.getElementById('as-quiz');
   if(!el)return;
-  var P={title:'Find your perfect bonus',
+  var P={title:'Finden Sie Ihren perfekten Bonus',
     qs:[
-      {q:'What do you like playing most?',a:['Slots','Live dealer','Both','I\u2019m new']},
-      {q:'How big is your budget?',a:['Small','Medium','Large','No limit']},
-      {q:'What matters most to you?',a:['Bonus','Game choice','Fast withdrawals','Security']},
-      {q:'How fast do you want to cash out?',a:['Instant','Within 24h','Not important']}
+      {q:'Was spielen Sie am liebsten?',a:['Slots','Live-Dealer','Beides','Ich bin neu']},
+      {q:'Wie hoch ist Ihr Budget?',a:['Klein','Mittel','Gro\u00DF','Ohne Limit']},
+      {q:'Was ist Ihnen am wichtigsten?',a:['Bonus','Spielauswahl','Schnelle Auszahlung','Sicherheit']},
+      {q:'Wie schnell wollen Sie auszahlen?',a:['Sofort','Bis 24h','Nicht wichtig']}
     ],
     results:[
-      {t:'Welcome bonus',d:'100% up to \u20AC500 + 200 free spins \u2014 ideal for slot players with a medium-to-large budget. 35\u00D7 wagering.'},
-      {t:'Free spins package',d:'200 free spins on popular slots \u2014 best fit for a small budget. Low-risk start.'},
-      {t:'No-deposit bonus',d:'Free bonus for new players \u2014 perfect if you\u2019re new or playing on a tiny budget.'},
-      {t:'VIP programme',d:'Cashback up to 15%, personal manager, fast withdrawals \u2014 built for high rollers.'}
-    ],cta:'Claim now',retry:'Restart',step:'Question'};
+      {t:'Willkommensbonus',d:'100% bis 500 \u20AC + 200 Freispiele \u2014 ideal f\u00FCr Slot-Spieler mit mittlerem bis gro\u00DFem Budget. Umsatz 35\u00D7.'},
+      {t:'Freispiele-Paket',d:'200 Freispiele auf beliebte Slots \u2014 optimal bei kleinem Budget. Risikoarmer Start.'},
+      {t:'Bonus ohne Einzahlung',d:'Gratisbonus f\u00FCr neue Spieler \u2014 perfekt f\u00FCr Neulinge oder sehr kleines Budget.'},
+      {t:'VIP-Programm',d:'Cashback bis 15%, pers\u00F6nlicher Manager, schnelle Auszahlungen \u2014 f\u00FCr High Roller.'}
+    ],cta:'Jetzt holen',retry:'Erneut starten',step:'Frage'};
   var styleId='qz-style';
   if(!document.getElementById(styleId)){
     var s=document.createElement('style');s.id=styleId;

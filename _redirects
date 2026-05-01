@@ -1,6 +1,11 @@
 # www → apex (canonical to non-www) — forced via 301!
 https://www.drawnude.org/* https://drawnude.org/:splat 301!
 
+# Legacy German legal URLs at root → /de/ equivalents
+/datenschutz.html /de/datenschutz.html 301
+/agb.html /de/agb.html 301
+/impressum.html /de/impressum.html 301
+
 # Legacy URLs from previous owner — redirect to homepage
 /ai-cumshot-generator/* / 301
 /nudify/* / 301

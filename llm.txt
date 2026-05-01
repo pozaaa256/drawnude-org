@@ -1,24 +1,26 @@
-# Golazzo Casino — Informationsseite (DE)
+# Golazzo Casino — information site
 
-Brand: Golazzo Casino | Domain: https://drawnude.org/ | Type: Affiliate | Audience: 18+ | Sprache: Deutsch (de-DE) | Markt: Deutschland
+Brand: Golazzo Casino | Domain: https://drawnude.org/ | Type: Affiliate | Audience: 18+ | Language: English (en) primary, German (de) at /de/ | Market: international
 
-Pages: / | /bonuses/ | /slots/ | /app/
+Pages (EN, root): / | /bonuses/ | /slots/ | /app/
+Pages (DE): /de/ | /de/bonuses/ | /de/slots/ | /de/app/
 
-Spiele: 7.000+ Slots, Live-Dealer, Tischspiele
-Anbieter: Pragmatic Play, NetEnt, Evolution, Hacksaw, Play'n GO, Yggdrasil, Push Gaming
-Willkommensbonus: 100% bis 500 € + 200 Freispiele
-Mindesteinzahlung: 20 €
-Umsatzanforderung: 35×
-Krypto: BTC, ETH, USDT, LTC, DOGE
-Lizenz: Curaçao eGaming
-Live-Chat: 24/7 auf Deutsch
+Games: 7,000+ slots, live dealer, table games
+Providers: Pragmatic Play, NetEnt, Evolution, Hacksaw, Play'n GO, Yggdrasil, Push Gaming
+Welcome bonus: 100% up to €500 + 200 free spins
+Min. deposit: €20
+Wagering: 35×
+Crypto: BTC, ETH, USDT, LTC, DOGE
+Licence: Curaçao eGaming
+Live chat: 24/7
 
-Affiliate-Hinweis: Diese Seite enthält Affiliate-Links. Bei Registrierung über diese Links erhalten wir eine Provision.
-Glücksspiel-Hinweis: 18+. Spielen Sie verantwortungsvoll. Glücksspiel kann süchtig machen.
+Affiliate disclosure: This site contains affiliate links. We may receive a commission for registrations.
+Gambling notice: 18+. Gambling can be addictive. Please play responsibly.
 
-Verantwortungsvolles Spielen:
+Responsible gambling:
 GamCare: https://www.gamcare.org.uk
 BeGambleAware: https://www.begambleaware.org
-BZgA: https://www.spielen-mit-verantwortung.de
+Gamblers Anonymous: https://www.gamblersanonymous.org
+NCPG (US): https://www.ncpgambling.org
 
 Disallow: /play/

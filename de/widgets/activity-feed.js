@@ -2,9 +2,9 @@
   if(parseInt(sessionStorage.getItem('as_feed_count')||'0',10)>=15)return;
   var cur='\u20AC';
   var jp=1500,jpMax=6000,lo=50,hi=600;
-  var ago='min ago', won='won';
-  var names=['Mark','Sofia','Tom','Emma','Liam','Anna','Lucas','Clara','Felix','Nina','Paul','Lea','James','Julia','Max','Laura'];
-  var cities=['London','Berlin','Amsterdam','Toronto','Sydney','Dublin','Lisbon','Madrid','Stockholm','Vienna','Helsinki','Copenhagen','Oslo','Warsaw','Prague'];
+  var ago='Min. her', won='gewann';
+  var names=['Markus','Lisa','Tim','Sophie','Hans','Anna','Jonas','Clara','Felix','Nina','Paul','Lea','Stefan','Julia','Max','Laura'];
+  var cities=['Berlin','M\u00FCnchen','Hamburg','K\u00F6ln','Frankfurt','Stuttgart','Leipzig','D\u00FCsseldorf','Bremen','Dresden','Hannover','N\u00FCrnberg'];
   var games=['Gates of Olympus','Sweet Bonanza','Book of Dead','Big Bass Bonanza','Starburst','Razor Shark','Wanted Dead or a Wild','Le Bandit','Fruit Party','Crazy Time','Live Roulette','Aviator','Sugar Rush','Money Train 4'];
   function rand(a,b){return Math.floor(a+Math.random()*(b-a+1))}
   function item(i){
@@ -35,7 +35,7 @@
     var a=document.createElement('a');
     a.href='/play/';a.rel='nofollow sponsored noopener';
     a.className='af-toast'+(it.jackpot?' jackpot':'');
-    a.innerHTML=(it.jackpot?'\uD83C\uDFC6 ':'\uD83C\uDF89 ')+'<span class="af-name">'+it.name+'</span> ('+it.city+') '+won+' <span class="af-amt">'+cur+it.amt.toLocaleString('en-US')+'</span><span class="af-meta">'+it.game+' \u00B7 '+it.ago+' '+ago+'</span><span class="af-prog"></span>';
+    a.innerHTML=(it.jackpot?'\uD83C\uDFC6 ':'\uD83C\uDF89 ')+'<span class="af-name">'+it.name+'</span> ('+it.city+') '+won+' <span class="af-amt">'+it.amt.toLocaleString('de-DE')+' '+cur+'</span><span class="af-meta">'+it.game+' \u00B7 '+it.ago+' '+ago+'</span><span class="af-prog"></span>';
     wrap.appendChild(a);
     requestAnimationFrame(function(){a.classList.add('in')});
     setTimeout(function(){a.style.transform='translateX(-120%)';setTimeout(function(){a.remove()},400)},5500);

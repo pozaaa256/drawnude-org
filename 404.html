@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="de-DE">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>404 – Seite nicht gefunden | Golazzo Casino</title>
+<title>404 – Page Not Found | Golazzo Casino</title>
 <meta name="robots" content="noindex, follow">
 <meta name="theme-color" content="#0d0521">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -14,24 +14,15 @@ html,body{overflow-x:hidden;max-width:100%;margin:0;padding:0;hyphens:auto;-webk
 body{font-family:var(--font-display);background:var(--bg);color:var(--text);line-height:1.6;padding-bottom:calc(var(--sbar-h) + 1.5rem)}
 h1{font-size:clamp(2rem,5vw,3rem);margin:1rem 0;font-weight:900}
 a{color:var(--accent1);text-decoration:none}
-.skip-link{position:absolute;left:-9999px;top:0;background:var(--accent1);color:#0d0521;padding:.75rem 1rem;font-weight:700;z-index:9999}
-.skip-link:focus{left:1rem;top:1rem}
 .container{max-width:1100px;margin:0 auto;padding:0 1.25rem}
 .nav{position:sticky;top:0;z-index:8000;background:rgba(13,5,33,.88);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);height:var(--nav-h);display:flex;align-items:center}
 .nav-inner{display:flex;align-items:center;justify-content:space-between;width:100%}
 .logo{font-weight:900;font-size:1.35rem;color:var(--accent1);text-transform:uppercase}
 .logo span{color:var(--accent2)}
-.nav-links{display:flex;gap:1.75rem;align-items:center;list-style:none;margin:0;padding:0}
+.nav-links{display:flex;gap:1.5rem;align-items:center;list-style:none;margin:0;padding:0}
 .nav-links a{color:var(--text);font-weight:600;font-size:.95rem}
 .nav-cta{background:var(--accent1);color:#0d0521!important;padding:.55rem 1.1rem;border-radius:6px;font-weight:800}
-.burger{display:none;background:none;border:0;cursor:pointer;padding:.4rem;width:40px;height:40px}
-.burger span{display:block;width:24px;height:3px;background:var(--text);margin:4px auto;border-radius:2px}
-#mob-nav{position:fixed;top:var(--nav-h);left:0;right:0;max-height:calc(100vh - var(--nav-h));overflow-y:auto;background:var(--bg2);z-index:9200;transform:translateX(100%);transition:transform .25s ease;display:flex;flex-direction:column;padding:1rem;gap:.5rem}
-#mob-nav.open{transform:translateX(0)}
-#mob-nav a{display:block;padding:.85rem 1rem;color:var(--text);font-weight:600}
-body.menu-open{overflow:hidden}
-@media(min-width:768px){#burger{display:none}#mob-nav{display:none}}
-@media(max-width:768px){.nav-links{display:none}.burger{display:flex;flex-direction:column;justify-content:center}}
+@media(max-width:768px){.nav-links li:nth-child(n+3):not(:last-child){display:none}}
 .err-hero{min-height:60vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:3rem 1.25rem}
 .err-code{font-family:var(--font-display);font-size:clamp(5rem,15vw,9rem);font-weight:900;color:var(--accent1);line-height:1;margin:0}
 .err-hero p{color:var(--text2);max-width:520px;margin:0 auto 2rem}
@@ -39,84 +30,35 @@ body.menu-open{overflow:hidden}
 .btn{display:inline-flex;align-items:center;gap:.5rem;padding:.9rem 1.5rem;font-weight:800;border-radius:8px;text-decoration:none;cursor:pointer;border:0;font-size:.95rem}
 .btn-primary{background:linear-gradient(135deg,var(--accent1),#ffa500);color:#0d0521;box-shadow:0 8px 24px rgba(255,184,0,.3)}
 .btn-ghost{background:transparent;border:2px solid var(--accent2);color:var(--text)}
-.footer{background:#08031a;padding:2.5rem 0 1.5rem;margin-top:3rem;border-top:1px solid var(--border)}
-.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:2rem}
-@media(max-width:768px){.footer-grid{grid-template-columns:1fr 1fr}}
-@media(max-width:480px){.footer-grid{grid-template-columns:1fr}}
-.footer-col-label{display:block;color:var(--accent1);font-weight:800;font-size:.9rem;text-transform:uppercase;margin-bottom:.85rem}
-.footer a{display:block;color:#cdbedf;font-size:.9rem;padding:.25rem 0}
-.footer-disclaimer{margin-top:1.5rem;padding-top:1.5rem;border-top:1px solid var(--border);color:var(--text2);font-size:.82rem;text-align:center}
-#sbar{position:fixed;left:0;right:0;bottom:0;background:linear-gradient(90deg,#120730,var(--bg2));border-top:2px solid var(--accent1);padding:.9rem 1rem;z-index:9100;display:none;align-items:center;justify-content:space-between;gap:1rem;min-height:var(--sbar-h)}
-#sbar.show{display:flex}
-#sbar-text{flex:1;font-weight:600;font-size:.95rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-#sbar-timer{font-weight:900;color:var(--accent1)}
-#sbar-close{background:none;border:0;color:var(--text2);font-size:1.3rem;cursor:pointer}
-#scroll-top{position:fixed;bottom:calc(var(--sbar-h) + 1rem);right:1.5rem;width:44px;height:44px;border-radius:50%;background:var(--accent1);color:#0d0521;border:0;font-size:1.3rem;cursor:pointer;display:none;z-index:90}
-#scroll-top.show{display:block}
+.footer{background:#08031a;padding:2rem 0 1rem;margin-top:2rem;border-top:1px solid var(--border);text-align:center;color:var(--text2);font-size:.85rem}
+.footer a{color:#cdbedf;margin:0 .5rem}
+.lang-line{font-size:.85rem;color:var(--text2);margin-top:1rem}
 </style>
 </head>
 <body>
-<a class="skip-link" href="#main-content">Zum Inhalt springen</a>
 <header class="nav"><div class="container nav-inner">
   <a href="/" class="logo">GOLAZZO<span>.</span></a>
   <nav><ul class="nav-links">
-    <li><a href="/">Bewertung</a></li><li><a href="/bonuses/">Boni</a></li><li><a href="/slots/">Slots</a></li><li><a href="/app/">App</a></li>
-    <li><a href="/play/" class="nav-cta" rel="nofollow sponsored noopener">Spielen</a></li>
+    <li><a href="/">Review</a></li><li><a href="/bonuses/">Bonuses</a></li><li><a href="/slots/">Slots</a></li><li><a href="/app/">App</a></li>
+    <li><a href="/de/">DE</a></li>
+    <li><a href="/play/" class="nav-cta" rel="nofollow sponsored noopener">Play</a></li>
   </ul></nav>
-  <button id="burger" class="burger" aria-label="Menü öffnen" aria-expanded="false" aria-controls="mob-nav"><span></span><span></span><span></span></button>
-</div>
-<nav id="mob-nav" aria-hidden="true">
-  <a href="/">Bewertung</a><a href="/bonuses/">Boni</a><a href="/slots/">Slots</a><a href="/app/">App</a>
-  <a href="/play/" class="nav-cta" rel="nofollow sponsored noopener">Jetzt spielen</a>
-</nav>
-</header>
+</div></header>
 
 <main id="main-content" tabindex="-1" class="err-hero"><div>
   <div class="err-code">404</div>
-  <h1>Seite nicht gefunden</h1>
-  <p>Die angeforderte Seite existiert nicht oder wurde verschoben. Zurück zur Übersicht — oder sichern Sie sich gleich Ihren Willkommensbonus.</p>
+  <h1>Page not found</h1>
+  <p>The page you were looking for doesn't exist or has moved. Head back to the overview — or grab the welcome bonus on your way through.</p>
   <div class="cta-row">
-    <a href="/" class="btn btn-ghost">← Zur Startseite</a>
-    <a href="/play/" class="btn btn-primary" rel="nofollow sponsored noopener">Bonus sichern →</a>
+    <a href="/" class="btn btn-ghost">← Home</a>
+    <a href="/play/" class="btn btn-primary" rel="nofollow sponsored noopener">Claim bonus →</a>
   </div>
+  <div class="lang-line">Deutsch? <a href="/de/">→ /de/</a></div>
 </div></main>
 
 <footer class="footer"><div class="container">
-  <div class="footer-grid">
-    <div><div class="logo">GOLAZZO<span>.</span></div></div>
-    <div><strong class="footer-col-label">Seiten</strong><a href="/">Bewertung</a><a href="/bonuses/">Boni</a><a href="/slots/">Slots</a><a href="/app/">App</a></div>
-    <div><strong class="footer-col-label">Rechtliches</strong><a href="/datenschutz.html">Datenschutz</a><a href="/agb.html">AGB</a><a href="/disclaimer.html">Disclaimer</a><a href="/impressum.html">Impressum</a></div>
-    <div><strong class="footer-col-label">Verantwortungsvoll</strong><a href="https://www.gamcare.org.uk" rel="nofollow noopener noreferrer" target="_blank">GamCare</a><a href="https://www.begambleaware.org" rel="nofollow noopener noreferrer" target="_blank">BeGambleAware</a></div>
-  </div>
-  <div class="footer-disclaimer">© <script>document.write(new Date().getFullYear())</script> drawnude.org · Golazzo Casino Info. 18+. Spielen Sie verantwortungsvoll.</div>
+  © <script>document.write(new Date().getFullYear())</script> drawnude.org · Golazzo Casino info. 18+. Please play responsibly.<br>
+  <a href="/privacy-policy.html">Privacy</a> · <a href="/terms-and-conditions.html">Terms</a> · <a href="/disclaimer.html">Disclaimer</a> · <a href="/responsible-gambling.html">Responsible gambling</a>
 </div></footer>
-
-<div id="sbar"><div id="sbar-text" data-full="🎁 100% bis 500 € + 200 Freispiele" data-short="🎁 500 € + 200 FS">🎁 100% bis 500 € + 200 Freispiele</div><div id="sbar-timer">10:00</div><a href="/play/" class="btn btn-primary" rel="nofollow sponsored noopener">Holen</a><button id="sbar-close" aria-label="Schließen">×</button></div>
-<button id="scroll-top" aria-label="Nach oben">↑</button>
-
-<script>
-(function(){
-  var burger=document.getElementById('burger'),mobNav=document.getElementById('mob-nav');
-  if(!burger||!mobNav)return;
-  var isOpen=false,outsideListener=null;
-  function closeMenu(){if(!isOpen)return;isOpen=false;mobNav.classList.remove('open');mobNav.setAttribute('aria-hidden','true');burger.setAttribute('aria-expanded','false');document.body.classList.remove('menu-open');if(outsideListener){document.removeEventListener('click',outsideListener);outsideListener=null}}
-  function openMenu(){if(isOpen)return;isOpen=true;mobNav.classList.add('open');mobNav.setAttribute('aria-hidden','false');burger.setAttribute('aria-expanded','true');document.body.classList.add('menu-open');setTimeout(function(){outsideListener=function(e){if(!burger.contains(e.target)&&!mobNav.contains(e.target))closeMenu()};document.addEventListener('click',outsideListener)},0)}
-  burger.addEventListener('click',function(e){e.stopPropagation();isOpen?closeMenu():openMenu()});
-  mobNav.querySelectorAll('a').forEach(function(a){a.addEventListener('click',closeMenu)});
-  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&isOpen)closeMenu()});
-  window.addEventListener('resize',function(){if(window.innerWidth>=768&&isOpen)closeMenu()});
-})();
-const sbar=document.getElementById('sbar'),sbarText=document.getElementById('sbar-text'),sbarTimer=document.getElementById('sbar-timer');
-function setSbarText(){sbarText.textContent=window.innerWidth<600?sbarText.dataset.short:sbarText.dataset.full}
-setSbarText();window.addEventListener('resize',setSbarText);window.addEventListener('load',setSbarText);
-let sbarShown=sessionStorage.getItem('sbar_off')==='1';
-function showSbar(){if(sbarShown)return;sbar.classList.add('show')}
-setTimeout(showSbar,4000);window.addEventListener('scroll',()=>{if(window.scrollY>300)showSbar()},{passive:true});
-let sbarSec=600;setInterval(()=>{if(sbarSec<=0)return;sbarSec--;const m=Math.floor(sbarSec/60),s=sbarSec%60;sbarTimer.textContent=String(m).padStart(2,'0')+':'+String(s).padStart(2,'0')},1000);
-document.getElementById('sbar-close').addEventListener('click',()=>{sbar.classList.remove('show');sessionStorage.setItem('sbar_off','1');sbarShown=true});
-const stop=document.getElementById('scroll-top');
-window.addEventListener('scroll',()=>{stop.classList.toggle('show',window.scrollY>400)},{passive:true});
-stop.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
-</script>
 </body>
 </html>
