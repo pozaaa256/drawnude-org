@@ -1,5 +1,5 @@
-# www → apex (canonical to non-www)
-https://www.drawnude.org/* https://drawnude.org/:splat 301
+# www → apex (canonical to non-www) — forced via 301!
+https://www.drawnude.org/* https://drawnude.org/:splat 301!
 
 # Legacy URLs from previous owner — redirect to homepage
 /ai-cumshot-generator/* / 301
