@@ -1,0 +1,24 @@
+# Golazzo Casino — Informationsseite (DE)
+
+Brand: Golazzo Casino | Domain: https://drawnude.org/ | Type: Affiliate | Audience: 18+ | Sprache: Deutsch (de-DE) | Markt: Deutschland
+
+Pages: / | /bonuses/ | /slots/ | /app/
+
+Spiele: 7.000+ Slots, Live-Dealer, Tischspiele
+Anbieter: Pragmatic Play, NetEnt, Evolution, Hacksaw, Play'n GO, Yggdrasil, Push Gaming
+Willkommensbonus: 100% bis 500 € + 200 Freispiele
+Mindesteinzahlung: 20 €
+Umsatzanforderung: 35×
+Krypto: BTC, ETH, USDT, LTC, DOGE
+Lizenz: Curaçao eGaming
+Live-Chat: 24/7 auf Deutsch
+
+Affiliate-Hinweis: Diese Seite enthält Affiliate-Links. Bei Registrierung über diese Links erhalten wir eine Provision.
+Glücksspiel-Hinweis: 18+. Spielen Sie verantwortungsvoll. Glücksspiel kann süchtig machen.
+
+Verantwortungsvolles Spielen:
+GamCare: https://www.gamcare.org.uk
+BeGambleAware: https://www.begambleaware.org
+BZgA: https://www.spielen-mit-verantwortung.de
+
+Disallow: /play/
