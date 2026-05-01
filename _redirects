@@ -1,0 +1,15 @@
+# www → apex (canonical to non-www)
+https://www.drawnude.org/* https://drawnude.org/:splat 301
+
+# Legacy URLs from previous owner — redirect to homepage
+/ai-cumshot-generator/* / 301
+/nudify/* / 301
+/nude-ai/* / 301
+/nude-bot/* / 301
+/clothoff/* / 301
+/clothes-remover/* / 301
+/porngen/* / 301
+/clothes-eraser/* / 301
+/deepsukebe/* / 301
+/hentai-generator/* / 301
+/deepnude/* / 301
